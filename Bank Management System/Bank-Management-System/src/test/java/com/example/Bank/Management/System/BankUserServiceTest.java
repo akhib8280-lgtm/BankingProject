@@ -45,7 +45,7 @@ class BankUserServiceTest {
         BankUser user1 = new BankUser();
         user1.setName("Akhib");
         BankUser user2 = new BankUser();
-        user2.setName("John");
+        user2.setName("Haleema");
 
         when(repository.findAll()).thenReturn(Arrays.asList(user1, user2));
 
