@@ -60,6 +60,8 @@ class BankUserServiceTest {
         BankUser user = new BankUser();
         user.setUserId(1L);
         user.setName("Akhib");
+        user.setUserId(2L);
+        user.setUserId("sakib");
 
         when(repository.findById(1L)).thenReturn(Optional.of(user));
 
